@@ -22,6 +22,10 @@ function addTodo(text) {
   `);
 }
 
+// function editTodo(text) {
+
+// }
+
 function toggleDone(key) {
   const index = todoItems.findIndex(item => item.id === Number(key));
   todoItems[index].checked = !todoItems[index].checked;
